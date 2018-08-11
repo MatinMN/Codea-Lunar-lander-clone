@@ -1,5 +1,5 @@
 -- Lunar Lander Clone
-    displayMode(FULLSCREEN)
+displayMode(FULLSCREEN)
 -- Use this function to perform your initial setup
 function setup()
     ship = {x=WIDTH-300,y=HEIGHT,v=vec2(0,0),a=.06,maxS=vec2(5,5),fric=.2,fire=false,angle=0,landed=false,crash=false}
